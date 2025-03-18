@@ -1,6 +1,6 @@
 const Work = () => {
   return (
-    <div>work </div>
+    <div className="h-screen bg-amber-300">work </div>
   )
 }
 

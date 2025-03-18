@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section>Hero</section>
+    <section className="h-screen bg-blue-50">Hero</section>
   )
 }
 
