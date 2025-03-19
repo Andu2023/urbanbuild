@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className=" h-screen bg-red-300">About</div>
+    <div id="about" className=" h-screen bg-red-300">About</div>
   )
 }
 

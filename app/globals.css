@@ -129,14 +129,21 @@
   --shadow-md: 0px 4px 6px rgba(255, 255, 255, 0.1);
   --shadow-lg: 0px 10px 15px rgba(255, 255, 255, 0.1); */
 }
+/* Custom container styling */
+.container {
+  @apply mx-auto p-4; 
+}
 
 @layer base {
   /* * {
     @apply border-border outline-ring/50 shadow-[var(--box-shadow-custom)];;
   } */
+    
   body {
     @apply bg-background text-foreground;
-    @apply  text-secondary
+    @apply  text-secondary;
+  @apply overflow-x-hidden;
+
   }
    h1,
    h2,
