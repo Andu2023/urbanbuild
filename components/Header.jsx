@@ -28,6 +28,7 @@ const Header = () => {
   return (
     <header className=" bg-black text-white py-4 sticky top-0">
    <div className="container mx-auto">
+   <nav className=" hidden  xl:flex items-center gap-12">
    <ul  
    className="flex justify-center gap-12">
     {Links.map((link,index)=>{
@@ -45,6 +46,7 @@ const Header = () => {
       )
     })}
    </ul>
+   </nav>
    </div>
      </header>
   )

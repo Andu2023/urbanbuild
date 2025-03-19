@@ -5,7 +5,7 @@ import Socials from "./Socials";
 const Topbar = () => {
   return (
     <section  
-    className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-400 text-white py-4 xl:h-16 xl:py-0 "
+    className=" bg-gradient-to-r from-orange-500 via-red-500 to-yellow-400 text-white py-4 xl:h-16 xl:py-0 "
     id="home">
       <div className="container mx-auto ">
         {/* phone mail */}
