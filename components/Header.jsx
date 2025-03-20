@@ -1,6 +1,7 @@
 "use client";
 import { RiArrowRightUpFill } from "react-icons/ri";
 import { Link as ScrollLink } from "react-scroll"
+import Logo from "./Logo";
 const Links= [
   {
   name:"home",
@@ -32,14 +33,14 @@ const Header = () => {
 
     <div className=" flex items-center justify-between gap-4  ">
    {/* logo */}
-    <div className="mr-12">logo</div>
+    <Logo/>
     {/* nav */}
    <nav className=" hidden sm:flex items-center gap-12">
    <ul  
    className=" flex">
     {Links.map((link,index)=>{
       return(
-        <li key={index} className="list-none text-white text-sm uppercase font-gray-950 font-medium tracking-[1.2px] after:mx-4" >
+        <li key={index} className="list-none text-white text-sm uppercase font-gray-950 font-medium tracking-[1.2px] after:mx-4 last:after:content-none  after:text-accent" >
           <ScrollLink 
           to={link.path}
           smooth spy
