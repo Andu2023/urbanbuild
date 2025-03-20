@@ -2,6 +2,7 @@
 import { RiArrowRightUpFill } from "react-icons/ri";
 import { Link as ScrollLink } from "react-scroll"
 import Logo from "./Logo";
+import NavMobile from "./NavMobile";
 const Links= [
   {
   name:"home",
@@ -63,6 +64,11 @@ const Header = () => {
     </div>
    </button>
    </nav>
+   {/* nav mobile */}
+   <div className=" xl:hidden">
+    <NavMobile/>
+
+   </div>
    </div>
    </div>
      </header>
