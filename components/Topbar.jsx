@@ -10,7 +10,7 @@ const Topbar = () => {
       <div className="container mx-auto ">
         {/* phone mail */}
         <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
-        <div className=" hidden xl:flex items-center gap-8 ">
+        <div className=" hidden lg:flex items-center gap-8 ">
         <div className="   flex items-center gap-3 ">
           <div className=" w-8 h-8 bg-gray-950 text-white  flex items-center gap-3 justify-center">
             <RiPhoneFill/>

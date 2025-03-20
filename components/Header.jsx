@@ -1,4 +1,5 @@
 "use client";
+import { RiArrowRightUpFill } from "react-icons/ri";
 import { Link as ScrollLink } from "react-scroll"
 const Links= [
   {
@@ -27,13 +28,18 @@ const Links= [
 const Header = () => {
   return (
     <header className=" bg-black text-white py-4 sticky top-0">
-   <div className="container mx-auto">
-   <nav className=" hidden  xl:flex items-center gap-12">
+   <div className="container mx-auto ">
+
+    <div className=" flex items-center justify-between gap-4  ">
+   {/* logo */}
+    <div className="mr-12">logo</div>
+    {/* nav */}
+   <nav className=" hidden sm:flex items-center gap-12">
    <ul  
-   className="flex justify-center gap-12">
+   className=" flex">
     {Links.map((link,index)=>{
       return(
-        <li key={index} className="list-none">
+        <li key={index} className="list-none text-white text-sm uppercase font-gray-950 font-medium tracking-[1.2px] after:mx-4" >
           <ScrollLink 
           to={link.path}
           smooth spy
@@ -46,7 +52,17 @@ const Header = () => {
       )
     })}
    </ul>
+   {/* btn */}
+   <button  className="w-[200px] h-[54px] py-[5px] pl-[10px] pr-[5px] flex items-center justify-between min-w-[200px] bg-white group">
+    <div className="flex-1 text-center tracking-[1.2px] font-black  text-gray-950 text-sm uppercase">
+      Get a quote
+    </div>
+    <div className="w-11 h-11 bg-gray-950 flex items-center justify-center">
+      <RiArrowRightUpFill className="text-white text-xl group-hover:rotate-45 transition-all duration-200"/>
+    </div>
+   </button>
    </nav>
+   </div>
    </div>
      </header>
   )
