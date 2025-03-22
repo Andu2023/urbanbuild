@@ -24,14 +24,6 @@ const Links= [
   name:"contact",
   path:"contact",
 },
-{
-  name:"contact",
-  path:"contact",
-},
-{
-  name:"contact",
-  path:"contact",
-},
 
 {
   name:"blog",
