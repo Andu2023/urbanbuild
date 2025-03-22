@@ -24,7 +24,19 @@ const Links= [
   name:"contact",
   path:"contact",
 },
+{
+  name:"contact",
+  path:"contact",
+},
+{
+  name:"contact",
+  path:"contact",
+},
 
+{
+  name:"blog",
+  path:"blog",
+},
 
 ]
 const Header = () => {

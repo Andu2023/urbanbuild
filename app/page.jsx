@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import Blog from '@/components/Blog';
 import Contact from '@/components/Contact';
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
@@ -24,6 +25,7 @@ const Home = () => {
       <Testimonials/>
        <Faq/>
       <Contact/>
+      <Blog/>
       <Footer/>
    </div>
    
