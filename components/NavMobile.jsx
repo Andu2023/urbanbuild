@@ -88,6 +88,7 @@ return<Sheet open={isOpen} onOpenChange={setIsOpen}>
       )
     })}
   </ul>
+<div className='pt-12 text-white text-xl gap-6'> <Socials /></div>
  </div>
   </SheetContent>
 </Sheet>
